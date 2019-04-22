@@ -1,0 +1,40 @@
+.link {
+  color: rgb(255, 185, 185);
+}
+
+.header {
+  padding: 1rem 0 3rem;
+}
+
+.title {
+  color: "rebeccapurple";
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+.nav-item {
+  color: rgb(160, 97, 223);
+  font-size: 0.9em;
+  padding: 10px;
+  margin-right: 1.3rem;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: white;
+  padding: 10px;
+  background-color: rebeccapurple;
+}
+
+.active-nav-item {
+  color: rebeccapurple;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+
+  border-bottom-color: rebeccapurple;
+}
